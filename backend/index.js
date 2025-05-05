@@ -12,6 +12,6 @@ app.use(express.json())
 app.use('/api/auth', auth)
 // app.use('/api/notes', require('./routes/notes'))
    
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//     console.log(`Example app listening at http://localhost:${port}`);
+// });
