@@ -8,6 +8,20 @@ const App = () => {
         <h1>Rutu</h1>
         <h1>Rutu</h1>
         <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
+        <h1>Rutu</h1>
       
       </div>
     </>
