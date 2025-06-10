@@ -1,12 +1,18 @@
-# React + Vite
+this process will be done after creating backend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+***Add following line into package.json file in Debug***
 
-Currently, two official plugins are available:
+```
+ "both" : "concurrently \"npm run dev\" \"nodemon backend/index.js\"" 
+ ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+***download following package***
+```
+npm i react-router-dom concurrently 
+```
+    
+***then run this command***
+```
+"npm run both"
+```
+it allows you to run both the frontend and backend at the same time
